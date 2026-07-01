@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de  Login</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <form action="/login" method="POST">
+        <h1>Faça o seu login</h1>
+        <input type="text" name="user" placeholder="Usuario">
+        <input type="password" name="password" placeholder="Senha">
+        <button type="submit">Login</button>
+    </form>
+
+</body>
+</html>

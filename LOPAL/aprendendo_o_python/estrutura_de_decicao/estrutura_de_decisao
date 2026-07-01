@@ -1,0 +1,8 @@
+temperatura = float(input("digite a temperatura em ºC: "))
+if temperatura > 30:
+  print("Muito quente")
+elif temperatura < 15:
+    print("Ta muito frio")
+# elif temperatura > 15 and temperatura < 30:
+else:
+  print("ta uma temperatura boa!!")

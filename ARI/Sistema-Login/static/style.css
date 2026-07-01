@@ -1,0 +1,87 @@
+
+body {
+    background-image: url("fundo.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    image-rendering: -webkit-optimize-contrast; 
+    background-attachment: fixed;
+}
+
+form {
+    background: rgba(0, 0, 0, 0.75);
+    padding: 40px;
+    width: 320px;
+    border-radius: 10px;
+    
+
+    border: 1px solid rgba(255, 0, 0, 0.3);
+    
+  
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.2);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: #fff;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+    
+    text-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0.05);
+    color: white;
+    outline: none;
+    transition: 0.3s;
+}
+
+
+input:focus {
+    border-color: #ff0000;
+    box-shadow: 0 0 8px rgba(255, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #ff0000;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+
+    box-shadow: 0 0 15px rgba(255, 0, 0, 0.4);
+}
+
+button:hover {
+    background-color: #b30000; 
+    box-shadow: 0 0 25px rgba(255, 0, 0, 0.7);
+    transform: translateY(-2px);
+}
+
+button:active {
+    transform: translateY(0);
+}

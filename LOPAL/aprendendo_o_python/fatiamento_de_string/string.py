@@ -1,0 +1,36 @@
+minhaString = "hello world"
+outraString = ""
+novaString = minhaString + outraString
+# print(novaString * 3)
+# print(minhaString[0])
+# print(minhaString[1])
+# print(minhaString[2])
+# print(minhaString[3])
+# print(minhaString[4])
+
+# print(minhaString[1:4])
+# print(minhaString[1:5])
+# print(minhaString[:3])
+# print(minhaString[1::3])
+# print(minhaString[-5])
+# print(minhaString[::-1])
+# print(type(minhaString))
+# print(dir(minhaString))
+# print(minhaString.upper())
+# print(minhaString.lower())
+# print(minhaString.capitalize())
+# print(minhaString.title())
+# print(minhaString.strip())
+# print(minhaString.replace("l", "x"))
+# print(minhaString.split("e"))
+# print(minhaString.find("o"))
+# print(minhaString.count("l"))
+#print(len(minhaString))
+
+# print(minhaString.startswith("He"))
+# print(minhaString.startswith("he"))
+# print(minhaString.endswith("world"))
+# print(minhaString.startswith("he"))
+
+# print("ell" in minhaString)
+# print("xcv" in minhaString)
